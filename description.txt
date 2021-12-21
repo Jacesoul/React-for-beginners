@@ -20,3 +20,10 @@ const food = [1,2,3,4]
 - React Router가 하는것은 페이지를 전환하는것이다.
 - npm i react-router-dom
 - router는 URL을 보고 있는 component이고 가장 기본 URL에서 Home component를 보여주게 된다.
+- npm i react-router-dom@5.3.0
+- Switch가 하는 일은 Route를 찾는건데(Route는 URL을 의미) Route를 찾으면 컴포넌트를 렌더링한다.
+- Switch 컴포넌트는 한번에 하나의 Route만 렌더링하기위해 사용한다.(React Router에서는 원한다면 두개의 Route를 한번에 렌더링할수있기 때문에)
+- Browser Router에서 URL은 우리가 생각하는 웹사이트 URL처럼 생겼다.
+- 다른종류인 Hash Router를 사용한다면 뒤에 #(헤쉬)이 붙는다. 대부분은 Brower Router를 사용한다.
+- react-router-dom은 아주 쿨한 컴포넌트의 모음집이다.
+- Link 컴포넌트는 브라우저 새로고침 없이도 유저를 다른 페이지로 이동시켜준다.
