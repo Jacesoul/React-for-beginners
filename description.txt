@@ -27,3 +27,4 @@ const food = [1,2,3,4]
 - 다른종류인 Hash Router를 사용한다면 뒤에 #(헤쉬)이 붙는다. 대부분은 Brower Router를 사용한다.
 - react-router-dom은 아주 쿨한 컴포넌트의 모음집이다.
 - Link 컴포넌트는 브라우저 새로고침 없이도 유저를 다른 페이지로 이동시켜준다.
+- React Router는 다이나믹(동적)url을 지원해준다. 다이나믹하다는것은 url에 변수를 넣을수 있다는 의미이다.
