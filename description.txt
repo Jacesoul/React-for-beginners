@@ -1,3 +1,6 @@
 ### CREATE-REACT-APP
 - npm i prop-types
 - style들도 modular가 될수 있다.
+
+### EFFECTS
+- state가 변화할때 모든 component는 다시 실행되고 모든 code들도 다시 실행된다. 가끔은 이게 괜찮지만, 가끔은 component 내부의 몇몇 코드는 처음 딱 한번만 실행되고 다시는 실행되지 않도록 하고 싶을수 있다.
