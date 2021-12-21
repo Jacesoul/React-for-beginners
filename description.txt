@@ -9,3 +9,8 @@
 - react.js는 변화가 일어날때만 refresh해준다.
 - Cleanup 함수는 component가 destroy 될때 뭔가를 할수 있도록 해준다.
 - Cleanup 함수는 자주 사용하지않는다.
+```javascript
+const food = [1,2,3,4]
+[6, ...food]
+>> [6, 1, 2, 3, 4]
+```
