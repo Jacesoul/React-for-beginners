@@ -17,3 +17,6 @@ const food = [1,2,3,4]
 
 ### Practice Movie APP
 - map()을 사용하면 react.js는 element에 key를 주도록 한다.
+- React Router가 하는것은 페이지를 전환하는것이다.
+- npm i react-router-dom
+- router는 URL을 보고 있는 component이고 가장 기본 URL에서 Home component를 보여주게 된다.
