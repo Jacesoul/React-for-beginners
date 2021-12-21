@@ -1,0 +1,3 @@
+### CREATE-REACT-APP
+- npm i prop-types
+- style들도 modular가 될수 있다.
