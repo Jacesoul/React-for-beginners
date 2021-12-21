@@ -5,4 +5,7 @@
 ### EFFECTS
 - state가 변화할때 모든 component는 다시 실행되고 모든 code들도 다시 실행된다. 가끔은 이게 괜찮지만, 가끔은 component 내부의 몇몇 코드는 처음 딱 한번만 실행되고 다시는 실행되지 않도록 하고 싶을수 있다.
 - useEffect 함수는 코드가 딱 한번만 실행될수 있도록 보호해준다.
-- 
+- useEffect를 통해 언제 코드를 실행할지 선택권을 가질수있다.
+- react.js는 변화가 일어날때만 refresh해준다.
+- Cleanup 함수는 component가 destroy 될때 뭔가를 할수 있도록 해준다.
+- Cleanup 함수는 자주 사용하지않는다.
